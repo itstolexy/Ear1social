@@ -9,7 +9,7 @@
 
   <body>
     <header class="mt-[54.24px]">
-      <div class="flex flex-row ml-28">
+      <div class="flex flex-row lg:ml-28 ml-10">
         <div class="flex">
           <img
             class="flex max-w-[39.06px] max-h-[44.56px]"
@@ -18,7 +18,14 @@
           />
           <p class="flex font-bold text-lg ml-2">ear1</p>
         </div>
-        <div class="flex flex-row ml-auto mr-28">
+        <div class="lg:hidden ml-auto mr-10">
+          <img
+            class="flex max-w-[39.06px] max-h-[44.56px]"
+            src="/images/line.svg"
+            alt="line"
+          />
+        </div>
+        <div class="lg:flex flex-row ml-auto mr-28 hidden">
           <p class="text-gray-1 text-base">About</p>
           <p class="text-gray-1 text-base ml-[67px]">FAQs</p>
           <p class="text-gray-1 text-base ml-[67px]">Contact Us</p>
@@ -26,14 +33,26 @@
       </div>
     </header>
 
-    <section class="my-14">
+    <section class="lg:my-14 mt-5">
+      <div class="flex flex-row lg:mt-5 mt-10 lg:hidden">
+        <img
+          class="lg:max-h-[99px] lg:max-w-[99px] h-[51px] w-[51px] mx-auto"
+          src="/images/david.svg"
+          alt="david"
+        />
+        <img
+          class="lg:max-h-[99px] lg:max-w-[99px] h-[51px] w-[51px] mx-auto"
+          src="/images/prosper.svg"
+          alt="shola"
+        />
+      </div>
       <h1
-        class="text-black text-2xl font-bold w-[400px] mx-auto text-center justify-center"
+        class="text-black text-2xl font-bold lg:w-[400px] w-auto lg:mt-0 mt-5 lg:mx-auto mx-10 text-center justify-center"
       >
         Connect with professionals in your field without getting aired.
       </h1>
-      <div class="-mt-5">
-        <div class="flex flex-row">
+      <div class="lg:-mt-5">
+        <div class="lg:flex lg:flex-row hidden">
           <img
             class="max-h-[99px] max-w-[99px] mr-auto ml-36"
             src="/images/david.svg"
@@ -46,12 +65,14 @@
           />
         </div>
         <p
-          class="text-gray-1 text-sm mx-auto w-[420px] justify-center text-center -mt-5"
+          class="text-gray-1 text-sm mx-auto lg:w-[420px] w-72 justify-center text-center lg:-mt-5 mt-5"
         >
           For a small fee, ear1 allows you to get in touch with professionals in
           your field and build quality relationships with them.
         </p>
-        <div class="flex flex-row justify-center mt-16">
+        <div
+          class="flex lg:flex-row flex-col items-center justify-center lg:mt-16 mt-5"
+        >
           <button class="bg-green-4 w-28">
             <div class="flex flex-row my-1">
               <img class="ml-2" src="/images/apple.svg" alt="apple" />
@@ -61,7 +82,7 @@
               </div>
             </div>
           </button>
-          <button class="bg-green-4 w-32 ml-5">
+          <button class="bg-green-4 w-32 lg:ml-5 mt-5 lg:mt-0">
             <div class="flex flex-row my-1">
               <img class="ml-2" src="/images/play.svg" alt="apple" />
               <div class="text-white text-xs ml-2 text-left">
@@ -73,12 +94,12 @@
         </div>
         <div class="flex flex-row mt-5">
           <img
-            class="max-h-[99px] max-w-[99px] mx-auto"
+            class="lg:h-[99px] lg:w-[99px] h-[51px] w-[51px] mx-auto"
             src="/images/moe.svg"
             alt="moe"
           />
           <img
-            class="max-h-[99px] max-w-[99px] mx-auto"
+            class="lg:h-[99px] lg:w-[99px] h-[51px] w-[51px] mx-auto"
             src="/images/shola.svg"
             alt="shola"
           />
@@ -86,14 +107,18 @@
       </div>
     </section>
 
-    <section class="mt-24 mb-14">
-      <div class="flex flex-row justify-center">
-        <div class="mr-40 mt-5">
-          <h1 class="text-black text-xl font-bold w-[320px]">
+    <section class="lg:mt-24 lg:mb-14 mt-10">
+      <div class="lg:flex lg:flex-row justify-center">
+        <div class="lg:mr-40 lg:mt-5">
+          <h1
+            class="text-black text-xl font-bold lg:w-[320px] w-64 lg:mx-0 mx-auto lg:text-left text-center"
+          >
             Get in touch with those that
             <span class="text-green-4 italic">inspire</span> you.
           </h1>
-          <p class="text-gray-1 text-xs mt-5 w-[391px]">
+          <p
+            class="text-gray-1 text-xs lg:mt-10 mt-5 lg:w-[391px] w-auto lg:mx-0 mx-14 text-center lg:text-left"
+          >
             ear1 provides a more efficient and faster way for you to reach out
             to those who inspires you, either in your career, or any other field
             of interest, and build great relationships with them.
@@ -101,7 +126,7 @@
         </div>
         <div>
           <img
-            class="max-h-[250px] max-w-[250px]"
+            class="max-h-[250px] max-w-[250px] mx-auto mt-10"
             src="/images/get.svg"
             alt="smile"
           />
@@ -110,25 +135,36 @@
     </section>
 
     <section class="my-14">
-      <div class="flex flex-row justify-center mx-auto">
+      <div class="lg:flex lg:flex-row justify-center mx-auto">
         <div>
           <img
-            class="max-h-[250px] max-w-[250px]"
+            class="max-h-[250px] max-w-[250px] hidden sm:block"
             src="/images/you.svg"
-            alt="smile"
+            alt="you"
           />
         </div>
-        <div class="ml-40 mt-5">
-          <h1 class="text-black text-xl font-bold w-[320px]">
+        <div class="lg:ml-40 mt-5">
+          <h1
+            class="text-black text-xl font-bold lg:w-[320px] w-64 lg:mx-0 mx-auto lg:text-left text-center"
+          >
             You have
             <span class="text-green-4 italic">zero</span> chance of not being
             replied.
           </h1>
-          <p class="text-gray-1 text-xs mt-5 w-[391px]">
+          <p
+            class="text-gray-1 text-xs mt-5 lg:w-[391px] w-auto lg:mx-0 mx-10 text-center lg:text-left"
+          >
             Sending a DM should no more be an issue of shooting your shot or
             trying your luck. You’re paying, so you’re definitely going to get a
             response, and not just a response, but a conversation.m.
           </p>
+        </div>
+        <div>
+          <img
+            class="max-h-[250px] max-w-[250px] mx-auto mt-10 lg:hidden"
+            src="/images/you.svg"
+            alt="you"
+          />
         </div>
       </div>
     </section>
@@ -137,13 +173,15 @@
       <div class="flex flex-col">
         <div class="mt-5">
           <h1
-            class="text-black text-xl font-bold text-center w-[320px] mx-auto"
+            class="text-black text-xl font-bold text-center lg:w-[320px] w-64 mx-auto"
           >
             There's no
             <span class="text-green-4 italic">better way</span>
             of reaching out to those who inspires you.
           </h1>
-          <p class="text-gray-1 text-xs mt-5 text-center w-[600px] mx-auto">
+          <p
+            class="text-gray-1 text-xs mt-5 text-center lg:w-[600px] w-72 mx-auto"
+          >
             Ear1 lets influencers charge you a small fee to have a conversation
             with them. Being required to pay filters out all the unserious
             people so your favourite influencers can respond to you faster.
@@ -161,7 +199,7 @@
 
     <section class="my-14">
       <div
-        class="flex flex-row bg-green-4 w-[800px] mx-auto text-white border rounded-3xl"
+        class=" flex lg:flex-row flex-col items-center bg-green-4 lg:w-[800px] w-auto lg:mx-auto mx-10 text-white border rounded-3xl"
       >
         <div class="ml-10 my-10">
           <h1 class="text-xl font-bold w-[300px]">
@@ -171,7 +209,7 @@
             With ear1, replies to your DMs are guaranteed!
           </p>
         </div>
-        <div class="mt-20 ml-auto mr-10">
+        <div class="lg:mt-20 lg:ml-auto lg:mr-10 justify-center mb-10">
           <button class="bg-gray-2 w-28">
             <div class="flex flex-row my-1">
               <img class="ml-2" src="/images/apple.svg" alt="apple" />
@@ -195,8 +233,8 @@
     </section>
 
     <footer class="bg-gray-2">
-      <div class="flex flex-row">
-        <div class="ml-28 my-10">
+      <div class="lg:flex lg:flex-row lg:mx-0 mx-10">
+        <div class="lg:ml-28 lg:my-10">
           <img
             class="max-w-[39.06px] max-h-[44.56px]"
             src="/images/logo2.svg"
@@ -208,22 +246,22 @@
           </p>
         </div>
 
-        <div class="my-10 ml-96">
+        <div class="my-10 lg:ml-96">
           <p class="text-sm text-white-1 mt-4">Company</p>
           <p class="text-xs text-gray-3 mt-2">About us</p>
           <p class="text-xs text-gray-3 mt-2">FAQs</p>
           <p class="text-xs text-gray-3 mt-2">Contact us</p>
         </div>
 
-        <div class="my-10 ml-36">
+        <div class="lg:my-10 lg:ml-36">
           <p class="text-sm text-white-1 mt-4">Get in touch</p>
           <p class="text-xs text-gray-3 mt-2 w-40">
             Questions or feedback?, we would love to hear from you.
           </p>
           <div class="flex flex-row mt-4">
-            <img src="/images/facebook.svg" alt="facebook">
-            <img class="ml-2" src="/images/twitter.svg" alt="twitter">
-            <img class="ml-2" src="/images/ig.svg" alt="ig">
+            <img src="/images/facebook.svg" alt="facebook" />
+            <img class="ml-2" src="/images/twitter.svg" alt="twitter" />
+            <img class="ml-2" src="/images/ig.svg" alt="ig" />
           </div>
         </div>
       </div>
