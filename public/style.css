@@ -579,24 +579,9 @@ video {
   margin-bottom: 3.5rem;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.mx-0 {
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.mx-5 {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
 }
 
 .mb-10 {
@@ -760,24 +745,19 @@ video {
   background-color: rgb(57 57 63 / var(--tw-bg-opacity));
 }
 
-.bg-green-4 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 191 105 / var(--tw-bg-opacity));
-}
-
 .bg-gray-3 {
   --tw-bg-opacity: 1;
   background-color: rgb(187 187 187 / var(--tw-bg-opacity));
 }
 
+.bg-green-4 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 191 105 / var(--tw-bg-opacity));
+}
+
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .text-left {
@@ -826,14 +806,6 @@ video {
   font-weight: 100;
 }
 
-.font-light {
-  font-weight: 300;
-}
-
-.font-semibold {
-  font-weight: 600;
-}
-
 .italic {
   font-style: italic;
 }
@@ -866,17 +838,6 @@ video {
 .text-white-1 {
   --tw-text-opacity: 1;
   color: rgb(252 252 252 / var(--tw-text-opacity));
-}
-
-.text-\[\#773CD2\] {
-  --tw-text-opacity: 1;
-  color: rgb(119 60 210 / var(--tw-text-opacity));
-}
-
-@media (min-width: 640px) {
-  .sm\:block {
-    display: block;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -924,8 +885,8 @@ video {
     margin-left: 1.25rem;
   }
 
-  .lg\:ml-96 {
-    margin-left: 24rem;
+  .lg\:ml-\[600px\] {
+    margin-left: 600px;
   }
 
   .lg\:ml-auto {
@@ -964,28 +925,32 @@ video {
     margin-top: 1.25rem;
   }
 
-  .lg\:ml-\[\] {
-    margin-left: ;
+  .lg\:ml-\[400px\] {
+    margin-left: 400px;
   }
 
-  .lg\:ml-\[200px\] {
-    margin-left: 200px;
-  }
-
-  .lg\:ml-\[px\] {
-    margin-left: px;
+  .lg\:ml-\[450px\] {
+    margin-left: 450px;
   }
 
   .lg\:ml-\[500px\] {
     margin-left: 500px;
   }
 
-  .lg\:ml-\[700px\] {
-    margin-left: 700px;
+  .lg\:ml-\[00px\] {
+    margin-left: 00px;
   }
 
-  .lg\:ml-\[600px\] {
-    margin-left: 600px;
+  .lg\:ml-\[300px\] {
+    margin-left: 300px;
+  }
+
+  .lg\:ml-\[0px\] {
+    margin-left: 0px;
+  }
+
+  .lg\:ml-\[350px\] {
+    margin-left: 350px;
   }
 
   .lg\:block {
